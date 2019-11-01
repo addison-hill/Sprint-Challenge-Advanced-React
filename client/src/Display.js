@@ -7,9 +7,9 @@ const Display = props => {
            {props.players.map(player => (
                <Card className="card" >
                    <CardBody>
-                       <CardTitle>Name:{player.name}</CardTitle>
-                       <CardText>Country:{player.country}</CardText>
-                       <CardText>Searches:{player.searches}</CardText>
+                       <CardTitle>Name: {player.name}</CardTitle>
+                       <CardText>Country: {player.country}</CardText>
+                       <CardText>Searches: {player.searches}</CardText>
                    </CardBody>
                </Card>
            ))} 

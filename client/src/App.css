@@ -1,4 +1,54 @@
+body {
+  background-color: blue;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.navbar {
+  display: block;
+  height: 70px;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.card {
+  width: 250px;
+  height: 150px;
+  border: 2px solid grey;
+  background-color: red;
+  margin: 10px;
+}
+
+
+.toggle {
+  background: black;
+  border-radius: 50px;
+  height: 18px;
+  left: 850px;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 840px;
+}
+
+.brazil-mode {
+  background-color: yellow;
+  color: black;
+}
+  .brazil-mode .card {
+    background-color: green;
+  }
 

@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, CardTitle, CardText, CardBody } from 'reactstrap';
 
 const Display = props => {
-    console.log('props', props)
     return (
         <div className="container">
            {props.players.map(player => (

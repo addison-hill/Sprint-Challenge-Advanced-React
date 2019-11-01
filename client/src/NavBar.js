@@ -9,7 +9,7 @@ const Navbar = () => {
   };
   return (
     <nav className="navbar">
-      <h1>Womens World Cup Players</h1>
+      <h1 data-testid="main-header">Womens World Cup Players</h1>
       <div className="brazil-mode__toggle">
         <button
           onClick={toggleMode}

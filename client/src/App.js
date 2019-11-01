@@ -13,7 +13,6 @@ class App extends React.Component {
     axios
       .get('http://localhost:5000/api/players')
       .then(res => {
-        console.log('rizzy', res.data);
         this.setState({
           players: res.data
         });
@@ -29,7 +28,7 @@ class App extends React.Component {
       </div>
     );
   };
-}
+};
 
 export default App;
 
